@@ -41,9 +41,8 @@ class _AddProductScreenState extends State<AddProductScreen> {
     'Homestays',
     'Hotels',
     'Cars',
-    'Treking',
-    'Rent Room',
-    'Combo deals',
+    'Books',
+    'Fashion'
   ];
 
   void sellProduct() {
