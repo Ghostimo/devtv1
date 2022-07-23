@@ -47,15 +47,16 @@ class _AdminScreenState extends State<AdminScreen> {
               Container(
                 alignment: Alignment.topLeft,
                 child: Image.asset(
-                  'assets/images/logo.png',
-                  width: 100,
-                  height: 60,
+                  'assets/images/amazon_in.png',
+                  width: 120,
+                  height: 45,
+                  color: Colors.black,
                 ),
               ),
               const Text(
                 'Admin',
                 style: TextStyle(
-                  color: Color.fromARGB(246, 0, 0, 0),
+                  color: Colors.black,
                   fontWeight: FontWeight.bold,
                 ),
               )

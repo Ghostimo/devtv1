@@ -77,11 +77,10 @@ class AuthService {
           context: context,
           onSuccess: () async {
             SharedPreferences prefs = await SharedPreferences.getInstance();
-            // ignore: use_build_context_synchronously
             Provider.of<UserProvider>(context, listen: false).setUser(res.body);
             await prefs.setString(
                 'x-auth-token', jsonDecode(res.body)['token']);
-            // ignore: use_build_context_synchronously
+            // ignore: prefer_typing_uninitialized_variables
             Navigator.pushNamedAndRemoveUntil(
                 context,
                 Provider.of<UserProvider>(context, listen: false).user.type ==

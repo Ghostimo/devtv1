@@ -36,11 +36,11 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'TripHiker',
+      title: 'Amazon Clone',
       theme: ThemeData(
         scaffoldBackgroundColor: GlobalVariables.backgroundColor,
         colorScheme: const ColorScheme.light(
-          primary: Color.fromARGB(255, 5, 192, 192),
+          primary: GlobalVariables.secondaryColor,
         ),
         appBarTheme: const AppBarTheme(
           elevation: 0,

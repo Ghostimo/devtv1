@@ -12,15 +12,11 @@ class TopButtons extends StatelessWidget {
         Row(
           children: [
             AccountButton(
-              text: 'Your booking',
+              text: 'Your Orders',
               onTap: () {},
             ),
             AccountButton(
-              text: 'Add your Hotels , cars and Homestays',
-              onTap: () {},
-            ),
-            AccountButton(
-              text: 'Add your Packages',
+              text: 'Turn Seller',
               onTap: () {},
             ),
           ],

@@ -42,7 +42,7 @@ class _OrdersState extends State<Orders> {
                       left: 15,
                     ),
                     child: const Text(
-                      'Your Booking',
+                      'Your Orders',
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w600,

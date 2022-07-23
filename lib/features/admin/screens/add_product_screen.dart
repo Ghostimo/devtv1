@@ -24,7 +24,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
   final TextEditingController quantityController = TextEditingController();
   final AdminServices adminServices = AdminServices();
 
-  String category = 'Homestays';
+  String category = 'Mobiles';
   List<File> images = [];
   final _addProductFormKey = GlobalKey<FormState>();
 
@@ -38,9 +38,9 @@ class _AddProductScreenState extends State<AddProductScreen> {
   }
 
   List<String> productCategories = [
-    'Homestays',
-    'Hotels',
-    'Cars',
+    'Mobiles',
+    'Essentials',
+    'Appliances',
     'Books',
     'Fashion'
   ];
@@ -101,7 +101,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                               builder: (BuildContext context) => Image.file(
                                 i,
                                 fit: BoxFit.cover,
-                                height: 200,
+                                height: 250,
                               ),
                             );
                           },
@@ -129,7 +129,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                               children: [
                                 const Icon(
                                   Icons.folder_open,
-                                  size: 40,
+                                  size: 140,
                                 ),
                                 const SizedBox(height: 15),
                                 Text(
